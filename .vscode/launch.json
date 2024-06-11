@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            //"args": [
+            //    "--model_type OpenAIModel",
+            //    "--openai_api_key s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",
+            //    "--file_format markdown",
+            //    "--book tests/test.pdf",
+            //    "--openai_model gpt-3.5-turbo",
+            //  ],      
+            "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
